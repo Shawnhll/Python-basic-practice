@@ -1,5 +1,6 @@
 Python-basic-practice
 ==
+### 1. Identify and save all the prime numbers in a range from 0 to num into a list called lst.
 
 ```python
 def task(num):
