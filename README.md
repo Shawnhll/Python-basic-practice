@@ -2,6 +2,8 @@ Python-basic-practice
 ==
 ### 1. Identify and save all the prime numbers in a range from 0 to num into a list called lst.
 
+
+
 ```python
 def task(num):
   num = int(num)
@@ -24,4 +26,7 @@ def task(num):
         lst.append(i)
           
   return lst
+    
+print(task(18))
   ```
+https://trinket.io/python/a425cde61c
