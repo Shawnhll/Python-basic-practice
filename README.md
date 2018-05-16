@@ -68,6 +68,6 @@ while onemore=='yes':
       print('You got it right in {} guesses.'.format(len(plays)))
 
     break
-    ```
-    
+```
+
 https://trinket.io/python/2b8ea10f7d
