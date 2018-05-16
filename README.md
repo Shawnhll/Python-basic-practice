@@ -32,7 +32,7 @@ print(task(18))
 https://trinket.io/python/a425cde61c
 
 
-### 1. Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (Hint: remember to use the user input lessons from the very first exercise)
+### 2. Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right. (Hint: remember to use the user input lessons from the very first exercise)
 
 Extras:
 
@@ -71,3 +71,20 @@ while onemore=='yes':
 ```
 
 https://trinket.io/python/2b8ea10f7d
+
+
+### 3. Write a Python program to convert height in centimeters to feet and inches.
+
+```python
+def height(cm):
+  feet = int(cm / 30.48)
+  inch = round(((cm % 30.48) / 2.54))
+  y = "Your height is %s feet and %s inches." % (str(feet), str(inch))
+  
+  return y
+  
+print (height(int(input("What your height in cm?"))))
+```
+
+https://trinket.io/python/27bc58c127
+
