@@ -88,3 +88,51 @@ print (height(int(input("What your height in cm?"))))
 
 https://trinket.io/python/27bc58c127
 
+
+
+### Tic Tac Toe
+
+
+```python
+
+gameon = True
+p1_in_lst = []
+p2_in_lst = []
+while gameon:
+    whole_lst = ['a1','a2','a3','b1','b2','b3','c1','c2','c3']
+
+    win_lst_1 = ['aaa','bbb','ccc','111','222','333']
+    win_lst_2 = ['abc','123']
+
+    p1_in = str(input("Player One, please choose a place from " + str(whole_lst) +'.'))
+    p1_in_lst.append(p1_in)
+    whole_lst.remove(p1_in)
+    print(p1_in_lst)
+
+    p2_in = str(input("Player two, please choose a place from " + str(whole_lst) +'.'))
+    p2_in_lst.append(p2_in)
+    whole_lst.remove(p2_in)    
+    print(p2_in_lst)
+
+
+    if len(p1_in_lst) == 3 or len(p2_in_lst) == 3:
+        p1_lst = sorted(p1_in_lst)
+        p1_check = [p1_lst[0][0]+p1_lst[1][0]+p1_lst[2][0],p1_lst[0][1]+p1_lst[1][1]+p1_lst[2][1]]
+
+
+        p2_lst = sorted(p2_in_lst)
+        p2_check = [p2_lst[0][0]+p2_lst[1][0]+p2_lst[2][0],p2_lst[0][1]+p2_lst[1][1]+p2_lst[2][1]]
+
+
+        if (p1_check[0] in win_lst_1) or (p1_check[0] in win_lst_2 and p1_check[1] in win_lst_2):
+            print('Player1 wins!')
+            
+        break
+        if (p2_check[0] in win_lst_1) or (p2_check[0] in win_lst_2 and p2_check[1] in win_lst_2):
+            print('Player2 wins!')
+            
+        break
+
+
+
+```
