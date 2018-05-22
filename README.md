@@ -159,8 +159,7 @@ https://trinket.io/python3/2a06c1d0fd
 ```python
 
 def choose():
-  x = int(input('What would you like to convert? \n1. From C to F. \n2. From F to C.'))
-  return x
+  return int(input('What would you like to convert? \n1. From C to F. \n2. From F to C.'))
 
 def c2f():
   c = int(input("What's the temperature in C do you want to convert to F?"))
@@ -175,7 +174,6 @@ def f2c():
   return c
   
 def gameonoff():
-  gameon = int()
   return input("Want to convert another temperature? Input 'yes' or 'no'.")
 
 gameon = True
