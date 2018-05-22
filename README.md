@@ -160,7 +160,6 @@ https://trinket.io/python3/2a06c1d0fd
 
 def choose():
   x = int(input('What would you like to convert? \n1. From C to F. \n2. From F to C.'))
-  print('You chose '+str(x)+'.')
   return x
 
 def c2f():
@@ -176,12 +175,12 @@ def f2c():
   return c
   
 def gameonoff():
-  return input("Want to convert another temperature? Input 'yes' or 'no' ")
+  gameon = int()
+  return input("Want to convert another temperature? Input 'yes' or 'no'.")
 
 gameon = True
 while gameon:
-  option = choose()
-  if option == 1:
+  if choose() == 1:
     c2f()
   else:
     f2c()
