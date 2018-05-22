@@ -151,7 +151,9 @@ https://trinket.io/python3/2a06c1d0fd
 
 
 
+
 ### Convert temperatures to and from celsius, fahrenheit.
+
 
 
 ```python
@@ -174,7 +176,6 @@ def f2c():
   return c
   
 def gameonoff():
-  gameon = int()
   return input("Want to convert another temperature? Input 'yes' or 'no' ")
 
 gameon = True
