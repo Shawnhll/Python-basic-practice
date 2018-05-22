@@ -148,3 +148,45 @@ print([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a 
 ```
 
 https://trinket.io/python3/2a06c1d0fd
+
+
+
+###Cnvert temperatures to and from celsius, fahrenheit.
+
+
+```python
+
+def choose():
+  x = int(input('What would you like to convert? \n1. From C to F. \n2. From F to C.'))
+  print('You chose '+str(x)+'.')
+  return x
+
+def c2f():
+  c = int(input("What's the temperature in C do you want to convert to F?"))
+  f = int(c*9/5 + 32)
+  print(str(c)+' C equals to '+str(f)+' F.')
+  return f
+  
+def f2c():
+  f = int(input("What's the temperature in F do you want to convert to C?"))
+  c = int((5/9) * (f - 32))
+  print(str(f)+' F equals to '+str(c)+' C.')
+  return c
+  
+def gameonoff():
+  gameon = int()
+  return input("Want to convert another temperature? Input 'yes' or 'no' ")
+
+gameon = True
+while gameon:
+  option = choose()
+  if option == 1:
+    c2f()
+  else:
+    f2c()
+  if gameonoff() != 'yes':
+    print('Thank you for using this tool.')
+    break
+```
+
+https://trinket.io/python/f7c92cc575
