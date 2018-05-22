@@ -151,7 +151,7 @@ https://trinket.io/python3/2a06c1d0fd
 
 
 
-###Cnvert temperatures to and from celsius, fahrenheit.
+### Convert temperatures to and from celsius, fahrenheit.
 
 
 ```python
