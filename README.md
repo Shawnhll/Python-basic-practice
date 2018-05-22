@@ -188,3 +188,27 @@ while gameon:
 ```
 
 https://trinket.io/python/69ab288af4
+
+
+
+### Printing string and integer (or float) in the same line
+
+```python
+x = 8
+print("The number is", x)
+#OR
+x = 8
+print("The number is " + str(x))
+
+#If you're using Python 3.6 you can make use of f strings. Which is pretty neat:
+
+name = 'Don'
+
+print(f'Hey my name is {name}.'})
+
+#you can also do
+
+x = 8 
+print("The number is %s" % x)
+#or
+print("The number is {0}".format(str(x)))
