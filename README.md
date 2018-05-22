@@ -136,3 +136,15 @@ while gameon:
 
 
 ```
+
+### Input integers for x,y,z,n and list all the possible cordinates of (a,b,c) if a+b+c != n; 0 <= a,b,c <= x,y,z respecively. 
+
+
+
+```python
+x,y,z,n = (int(input()) for _ in range(4))
+print([[a,b,c] for a in range(x+1) for b in range(y+1) for c in range(z+1) if a + b + c != n])
+
+```
+
+https://trinket.io/python3/2a06c1d0fd
