@@ -175,11 +175,11 @@ def f2c():
   
 def gameonoff():
   while True:
-    x = input("Want to convert another temperature? Input 'yes' or 'no'.")
-    if x.lower() == 'yes':
+    x = int(input("Want to convert another temperature? Input 1 if yes, 2 if no."))
+    if x == 1:
       return True
       break
-    elif x.lower() == 'no':
+    elif x == 2:
       return False
       break
     else:
@@ -195,9 +195,10 @@ while True:
   if not gameonoff():
     print('Thank you for using this tool.')
     break
+
 ```
 
-https://trinket.io/python/60182d4ded
+https://trinket.io/python/4b51882e11
 
 
 
