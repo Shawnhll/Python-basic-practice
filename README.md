@@ -176,8 +176,7 @@ def f2c():
 def gameonoff():
   return input("Want to convert another temperature? Input 'yes' or 'no'.")
 
-gameon = True
-while gameon:
+while True:
   if choose() == 1:
     c2f()
   else:
@@ -187,7 +186,7 @@ while gameon:
     break
 ```
 
-https://trinket.io/python/69ab288af4
+https://trinket.io/python/971fd84cb9
 
 
 
