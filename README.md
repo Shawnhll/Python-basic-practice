@@ -215,11 +215,25 @@ print("The number is " + str(x))
 
 name = 'Don'
 
-print(f'Hey my name is {name}.'})
+print(f'Hey my name is {name}.')
 
 #you can also do
 
 x = 8 
 print("The number is %s" % x)
 #or
-print("The number is {0}".format(str(x)))
+print("The number is {}".format(str(x)))
+
+#Another example
+x = 0
+y = 0
+
+for i in range(1,10):
+  if i%2 == 0:
+    x += 1
+  else:
+    y += 1
+
+print('There are %s even numbers.' % x)
+print(f'There are {y} odd numbers.')
+print('There are {} odd numbers.'.format(y))
