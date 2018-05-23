@@ -174,19 +174,30 @@ def f2c():
   return c
   
 def gameonoff():
-  return input("Want to convert another temperature? Input 'yes' or 'no'.")
-
+  while True:
+    x = input("Want to convert another temperature? Input 'yes' or 'no'.")
+    if x.lower() == 'yes':
+      return True
+      break
+    elif x.lower() == 'no':
+      return False
+      break
+    else:
+      print('Unrecogonized input, please try again.')
+      pass
+  
 while True:
   if choose() == 1:
     c2f()
   else:
     f2c()
-  if gameonoff() != 'yes':
+  
+  if not gameonoff():
     print('Thank you for using this tool.')
     break
 ```
 
-https://trinket.io/python/971fd84cb9
+https://trinket.io/python/60182d4ded
 
 
 
