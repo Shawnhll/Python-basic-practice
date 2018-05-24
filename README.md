@@ -224,16 +224,16 @@ print("The number is %s" % x)
 #or
 print("The number is {}".format(str(x)))
 
+
 #Another example
-x = 0
-y = 0
+x = 8
 
-for i in range(1,10):
-  if i%2 == 0:
-    x += 1
-  else:
-    y += 1
+print('The number is',x,'.')
 
-print('There are %s even numbers.' % x)
-print(f'There are {y} odd numbers.')
-print('There are {} odd numbers.'.format(y))
+print('The number is ' + str(x)+".")
+
+print('The number is %s.' % x)
+
+print(f'The number is {x}.') # only works in and after python 3.6
+
+print('The number is {}.'.format(x))
