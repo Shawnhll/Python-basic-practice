@@ -205,35 +205,16 @@ https://trinket.io/python/4b51882e11
 ### Printing string and integer (or float) in the same line
 
 ```python
+
 x = 8
-print("The number is", x)
-#OR
-x = 8
-print("The number is " + str(x))
+# to give the same output: The number is 8.
 
-#If you're using Python 3.6 you can make use of f strings. Which is pretty neat:
-
-name = 'Don'
-
-print(f'Hey my name is {name}.')
-
-#you can also do
-
-x = 8 
-print("The number is %s" % x)
-#or
-print("The number is {}".format(str(x)))
-
-
-#Another example
-x = 8
-
-print('The number is',x,'.')
+print('The number is',x,end='.\n')
 
 print('The number is ' + str(x)+".")
 
 print('The number is %s.' % x)
 
-print(f'The number is {x}.') # only works in and after python 3.6
+print(f'The number is {x}.') # works on in version 3.6 or later
 
 print('The number is {}.'.format(x))
