@@ -209,7 +209,7 @@ https://trinket.io/python/4b51882e11
 x = 8
 # to give the same output: The number is 8.
 
-print('The number is',x,end='.\n')
+print('The number is', x, end='.\n')
 
 print('The number is ' + str(x)+".")
 
