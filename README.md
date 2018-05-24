@@ -228,11 +228,11 @@ https://trinket.io/python3/e56cb6709b
 
 Validation :
 
-At least 1 letter between [a-z] and 1 letter between [A-Z].
-At least 1 number between [0-9].
-At least 1 character from [$#@].
-Minimum length 6 characters.
-Maximum length 16 characters.
+ At least 1 letter between [a-z] and 1 letter between [A-Z].<br />
+ At least 1 number between [0-9].<br />
+ At least 1 character from [$#@].<br />
+ Minimum length 6 characters.<br />
+ Maximum length 16 characters.
 
 
 ```python
