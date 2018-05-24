@@ -218,3 +218,12 @@ print('The number is %s.' % x)
 print(f'The number is {x}.') # works on in version 3.6 or later
 
 print('The number is {}.'.format(x))
+```
+
+https://trinket.io/python3/e56cb6709b
+
+
+
+
+
+
