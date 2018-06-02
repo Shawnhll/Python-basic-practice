@@ -264,3 +264,24 @@ if x:
 ```
 
 https://trinket.io/python3/2495ba3ab8
+
+
+###Ending a Program Early with sys.exit()
+
+
+```python
+
+import sys
+
+while True:
+    print('Type exit to exit.')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')
+```
+
+https://trinket.io/python3/045a24e05e
+
+
+
